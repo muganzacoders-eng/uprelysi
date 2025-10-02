@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://educationapi-n33q.onrender.com';
+const API_URL = process.env.REACT_APP_API_URL || 'https://uprelysi.vercel.app';
 
 const api = axios.create({
   baseURL: API_URL,
@@ -33,5 +33,6 @@ export const googleAuth = async (payload) => {
   const response = await api.post('/auth/google', payload);
   return response.data;
 };
+
 
 
