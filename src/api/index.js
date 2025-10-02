@@ -3,7 +3,7 @@ import axios from 'axios';
 import { debugApi } from '../utils/debug';
 
 // const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://educationapi-n33q.onrender.com';
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'https://down-63np.onrender.com';
 
 class ApiService {
   constructor() {
@@ -459,5 +459,6 @@ class ApiService {
     return response.data;
   }
 }
+
 
 export default new ApiService();
