@@ -160,8 +160,8 @@ function PublicLayout() {
             onClick={() => navigate('/')}
           >
             <img
-              src="/images/relysi.png"
-              alt="Relysi Logo"
+              src="/images/relysi.PNG"
+              alt=""
               style={{ height: 32, marginRight: 8 }}
             />
             <Typography variant="h6" noWrap component="div">
@@ -269,5 +269,6 @@ function PublicLayout() {
 }
 
 export default PublicLayout;
+
 
 
