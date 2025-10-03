@@ -267,7 +267,7 @@ function AppLayout() {
           >
             <img
               src="/images/relysi.PNG"
-              alt="Relysi Logo"
+              alt=""
               style={{ height: 32, marginRight: 8 }}
             />
             <Typography variant="h6" noWrap component="div">
@@ -410,6 +410,7 @@ function AppLayout() {
 }
 
 export default AppLayout;
+
 
 
 
