@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'; // Add this import
+import PropTypes from 'prop-types';
 import { Navigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 
@@ -34,4 +34,5 @@ export function PublicRoute({ children }) {
 
 PublicRoute.propTypes = {
   children: PropTypes.node.isRequired,
+
 };
