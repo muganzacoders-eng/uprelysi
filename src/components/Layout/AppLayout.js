@@ -266,7 +266,7 @@ function AppLayout() {
             onClick={() => navigate('/')}
           >
             <img
-              src="/images/relysi.png"
+              src="/relysi.png"
               alt="Relysi Logo"
               style={{ height: 32, marginRight: 8 }}
             />
@@ -410,3 +410,4 @@ function AppLayout() {
 }
 
 export default AppLayout;
+
